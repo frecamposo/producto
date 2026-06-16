@@ -1,6 +1,9 @@
 pipeline {
     agent any
-
+    tools {
+        // El nombre 'Maven_3.9' debe coincidir exactamente con el Paso 1
+        maven 'Maven_3.9' 
+    }
     stages {
         stage('1. Clonar Codigo') {
             steps {
