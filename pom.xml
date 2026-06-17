@@ -30,7 +30,7 @@
 		<java.version>17</java.version>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
 		<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-		<sonar.token>squ_a5517404e6ce374b3d34324fb0277a73a715025e</sonar.token>
+		<sonar.token>squ_6861486a0462384f2fbc08e7a3da62f976bf43c7</sonar.token>
 	</properties>
 	<dependencies>
 		<!-- 💻 Desarrollo Web Core -->
